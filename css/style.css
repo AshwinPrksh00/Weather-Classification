@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.css-zt5igj{
+    border-radius: 20px;
+    background: linear-gradient(to right, green, blue);
+}
+
+div.stButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.stButton>button{
+    transition: 0.2s;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.5rem 2rem;
+}
+div.stButton>button:hover{
+    background-color: yellow;
+    color: black;
+    transform: scale(1.05);
+    box-shadow: 5px 5px 2px #4b4949;
+}
